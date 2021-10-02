@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+    content="Raúl Ereño, diseñador web. Tomare tus ideas para tu futura página y las hare realidad con las últimas tecnologías para la creación de páginas webs. Confía, tus ideas se puede hacer realidad.">
+  <meta name="keywords"
+    content="home, inicio , Raúl Ereño , diseñador web, HTML , CSS, diseño de páginas web, diseño web, desarrollo web, web, diseño, desarrollo, desarrollador web, desarrollador ">
+  <!-- FUENTE SECUNDARIA -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet" />
+  <!-- FUENTE PRINCIPAL -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- HOJA DE ESTILOS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Raúl Ereño | Web Designer</title>
+</head>
+
+<body>
+  <div class="container-fluid navBarMovible">
+    <div class="row">
+      <nav class="col-6 navbar navbar-expand-lg navbar-light navBarMovible__barra">
+        <div class="container-fluid">
+          <button class="navbar-toggler navBarMovible__botonMenuHamburguesa" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navBarMovible__enLinea">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/sobre_mi.html">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="col-6 navBarMovible__redesSociales">
+        <a href="https://www.instagram.com/raulereno/" target="_blank"><img src="images/instagram.svg"
+            alt="Logo de Instagram" class="img-fluid" /></a>
+        <a href="https://www.linkedin.com/in/raulereno" target="_blank"> <img src="images/linkedin.svg"
+            alt="Logo de LinkeIn" class="img-fluid" /></a>
+        <a href="https://api.whatsapp.com/send?phone=+00000000" target="_blank"><img src="images/whatsapp.svg"
+            alt="Icono de whatsapp" clase="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+  <header class="container-fluid header">
+    <div class="row">
+      <div class="col-12">
+        <a href="index.html">
+          <img src="images/logo.svg" alt="Logo Raul Ereño" class="img-fluid header__logo" data-aos="fade-down"
+            data-aos-duration="3000">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <article class="row d-flex justify-content-center">
+      <h2 class="titulosH2 section__tituloSobreDiseñador">Sobre mi</h2>
+      <p class="col-md-6 section_primerParrafo" data-aos="flip-left" data-aos-duration="3000">
+        La pandemia además de cambiar mi estilo de vida, cambio mi rumbo hacia lo que quería hacer en un futuro
+        laboralmente, por esto pase de estudiar Derecho a insertarme de a poco en este hermoso mundo. Si queres
+        conocerme más <a href="pages/sobre_mi.html">click aquí.</a>
+      </p>
+      <!--Imagenes propias-->
+      <img src="images/foto_marley_y_yo(cortada).jpg" alt="Mi perro y yo" class="col-md-6 section__fotoMia"
+        data-aos="flip-right" data-aos-duration="3000" />
+
+
+      <h2 class="titulosH2 section__tituloResumenPortfolio">Resumen de
+        portfolio
+      </h2>
+      <!--Ruleta con las imagenes de los proyectos-->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide section__carrusel" data-bs-ride="carousel"
+        data-aos="fade-up" data-aos-duration="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/paginaDeViajes.jpg" class="d-block w-100" alt="Foto de pagina, empresa de viajes">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1"><a href="">Amigo Empresa de Viajes</a></h5>
+              <p>Amigo, una de las empresas de viajes mejor puntuadas de Europa</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/paginaDeVeterinaria.jpg" class="d-block w-100" alt="Foto de pagina,Veterinaria">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1"><a href="">Agromedica Veterinaria</a></h5>
+              <p>Clínica veterinaria, la mejor atención, juguetes y accesorios para tu mascota.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/paginaDeLenceria.jpg" class="d-block w-100" alt="Foto de pagina, E-commerce de lenceria">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="fs-1"><a href="">Lingirie</a></h5>
+              <p>E-commerce dedicado a la venta de ropa interior femenina</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p class="section__segundoParrafo">Mas informacion de los proyecto <a href="pages/portfolio.html"> aquí.</a></p>
+    </article>
+  </section>
+
+  <footer>
+    <p>Pagina creada por Raul Ereño. 2021 Copyright</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.header__logoError {
+    width: 50rem;
+}
+
+.footerError {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cajaError {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.gifError__img {
+    height: 100%;
+    width: 40rem;
+}
+
+.parrafoError {
+    display: flex;
+    justify-content: center;
+
+    a {
+        font-weight: 400;
+        font-size: 5rem;
+        text-decoration: none;
+        color: black;
+        transition: 1s;
+
+        &:hover {
+            color: rgb(121, 8, 8);
+        }
+    }
+
+}

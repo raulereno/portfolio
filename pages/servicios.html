@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+    content="Mis servicios son la creación de páginas web y la optimización del SEO de una página ya creada. También implemento cambios a páginas ya creadas, utilizando las últimas tecnologías.">
+  <meta name="keywords"
+    content="servicios , Raúl Ereño , diseñador web, HTML , CSS, diseño de paginas web, diseño web, desarrollo web, web, diseño, desarrollo, desarrollador web, desarrollador, SEO, creacion, optimización">
+  <!-- FUENTE SECUNDARIA -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet" />
+  <!-- FUENTE PRINCIPAL -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- HOJAS DE ESTILO -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <title>Servicios | Raúl Ereño</title>
+</head>
+
+<body>
+  <div class="container-fluid navBarMovible" id="arriba">
+    <div class="row containerHeader">
+      <nav class="col-6 navbar navbar-expand-lg navbar-light navBarMovible__barra">
+        <div class="container-fluid">
+          <button class="navbar-toggler navBarMovible__botonMenuHamburguesa" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navBarMovible__enLinea">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre_mi.html">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="col-6 navBarMovible__redesSociales">
+        <a href="https://www.instagram.com/raulereno/" target="_blank"><img src="../images/instagram.svg"
+            alt="Logo de Instagram" class="img-fluid" /></a>
+        <a href="https://www.linkedin.com/in/raulereno" target="_blank"> <img src="../images/linkedin.svg"
+            alt="Logo de LinkeIn" class="img-fluid" /></a>
+        <a href="https://api.whatsapp.com/send?phone=+00000000" target="_blank"><img src="../images/whatsapp.svg"
+            alt="Icono de whatsapp" clase="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+  <header class="container-fluid header">
+    <div class="row">
+      <div class="col-12">
+        <a href="../index.html">
+          <img src="../images/logo.svg" alt="Logo Raul Ereño" class="header__logo img-fluid" data-aos="fade-down"
+            data-aos-duration="3000">
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="servicios">
+    <h1 class="titulosH1 servicios__titulosH1" data-aos="fade-down" data-aos-duration="2000">Servicios</h1>
+    <!-- Tipos de servicios -->
+    <!-- 1er Servicio: Creacion de pagina -->
+    <div class="servicios__servicioUno" data-aos="fade-right" data-aos-duration="2000">
+      <img src="../images/nuevaPagina.png" alt="Nueva pagina" class="servicios__servicioUno__imagenesRepresentativas">
+      <h2 class="servicios__titulosH2Uno">Página Web</h2>
+      <p class="servicios__descripcionUno">Se le creara una página web funcional para que usted pueda iniciar su
+        negocio, tener una página personal o bien la página de su empresa</p>
+    </div>
+    <!--2do Servicio: SEO  -->
+    <div class="servicios__servicioDos" data-aos="fade-left" data-aos-duration="2000">
+      <img src="../images/seo.png" alt="SEO de pagina" class="servicios__servicioDos__imagenesRepresentativas">
+      <h2 class="servicios__titulosH2Dos">SEO</h2>
+      <p class="servicios__descripcionDos">Se optimizara su página para que mediante las mejores prácticas, su página
+        pueda posicionarse en un buen lugar en los motores de búsquedas.</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>Pagina creada por Raúl Ereño. 2021 Copyright</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

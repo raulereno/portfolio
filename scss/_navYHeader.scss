@@ -1,0 +1,89 @@
+.navBarMovible {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: auto;
+    justify-self: flex-end;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(117, 12, 10, 0.9));
+    border-bottom: 3px solid white;
+
+    /*--Barras de Navegacion-- */
+    .navBarMovible__barra {
+        order: -2;
+        align-self: center;
+
+        .navBarMovible__botonMenuHamburguesa {
+            background-color: white;
+            font-size: 2rem;
+        }
+
+        .navBarMovible__enLinea {
+            list-style-type: none;
+            font-size: 30px;
+            display: flex;
+            justify-self: center;
+
+            .nav-item {
+                margin: 0.5rem;
+                font-weight: 500;
+
+                .nav-link {
+                    text-decoration: none;
+                    padding: 0.2rem 0.5rem;
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    transition: all 0.3s;
+                    font-size: 2.5rem;
+                    color: black;
+                }
+
+                a:hover {
+                    letter-spacing: 2px;
+                    color: white;
+                    font-weight: 500;
+                    background-color: #770c0a;
+                }
+            }
+        }
+    }
+
+    /* --------REDES--------- */
+    .navBarMovible__redesSociales {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+
+        a {
+
+            img {
+                transition: all 0.3s;
+                width: 4.5rem;
+                margin: 0.5rem 0.3rem;
+            }
+
+            img:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+
+
+/*-----------HEADERS-------*/
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/fondoHeader.jpg);
+    background-repeat: repeat-x;
+    border-bottom: 3px solid rgba(0, 0, 0, .7);
+
+    .header__logo {
+        width: 90rem;
+        height: auto;
+    }
+}
+
+/*-------------- FIN HEADERS------------ */

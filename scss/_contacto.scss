@@ -1,0 +1,83 @@
+/* ------------ CONTACTO -------------- */
+.formulario {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0rem;
+
+    .formulario__tituloH1 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        background-color: rgb(66, 66, 66);
+        border-radius: 5px;
+    }
+
+    legend {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+        background-color: #C4C4C4;
+        border-radius: 8px;
+    }
+    input,
+    select,
+    label {
+        font-size: 20px;
+        color: black;
+    }
+
+    .formulario__containerUno {
+        background-color: #C4C4C4;
+        margin-top: 1rem;
+        padding: 2rem;
+        border-radius: 8px;
+        border: none;
+    
+        input {
+            margin: 1rem 0rem 2rem 1rem;
+        }
+        
+    }
+    .formulario__containerDos {
+        display: flex;
+        flex-direction: column;
+        background-color: #C4C4C4;
+        margin-top: 1rem;
+        padding: 3rem;
+        border-radius: 8px;
+        border: none;
+
+        label{
+            font-size: 3rem;
+            font-weight:500 ;
+        }
+        .mensaje{
+            resize: none;
+        }
+    }
+    
+    .formulario__llamada {
+        background-color: #C4C4C4;
+        margin-top: 2rem;
+        width: 64%;
+        font-weight: 600;
+        padding: 4px;
+        border-radius: 8px;
+        
+    }
+    
+    .formulario__botonEnviar {
+        display: flex;
+        justify-content: flex-end;
+        
+        input {
+            font-size: 2.5rem;
+            font-weight: 600;
+            border-radius: 4px;
+        }
+        
+    }
+}
+/* ---------------------------------- */

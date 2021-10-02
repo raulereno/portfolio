@@ -1,0 +1,98 @@
+/*--------- SOBRE MI ------- */
+.containerSobreMi {
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 4fr 1fr 3fr 3fr;
+    grid-template-areas:
+        " titulo1 titulo1 titulo1 titulo1"
+        " imagen1 imagen1 texto1 texto1"
+        " titulo2 titulo2 titulo2   .  "
+        " imagen2 . imagen3 ."
+        " . imagen4 . imagen5"
+    ;
+    align-content: center;
+
+    
+
+    .containerSobreMi__titulo {
+        grid-area: titulo1;
+        height: 4.5rem;
+        width: 95%;
+        font-size: 4rem;
+        padding-left: 2rem;
+        justify-self: center;
+        align-self: center;
+        border-radius: 5px;
+    }
+
+    .containerSobreMi__parrafoSobreMi {
+        width: 91%;
+        grid-area: texto1;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .containerSobreMi__fotosMias {
+        align-self: center;
+        justify-self: flex-end;
+        grid-area: imagen1;
+        transition: all 1.5s;
+        border: 4px solid rgba(66, 8, 7, .7);
+    }
+    
+    .containerSobreMi__fotosMias:hover {
+        border: 4px solid white;
+    }
+    
+    .containerSobreMi__tituloHobbies {
+        grid-area: titulo2;
+        justify-self: flex-end;
+        align-self: center;
+        background-color: #9b3737;
+        width: 60%;
+        font-size: 4rem;
+        padding-left: 6rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    .containerSobreMi__imagenesRepresentativasDos {
+        grid-area: imagen2;
+    }
+   
+    .containerSobreMi__imagenesRepresentativasTres {
+        grid-area: imagen3;
+    }
+    
+    .containerSobreMi__imagenesRepresentativasCuatro {
+        grid-area: imagen4;
+    }
+    
+    .containerSobreMi__imagenesRepresentativasCinco {
+        grid-area: imagen5;
+    }
+    
+    .containerSobreMi__imagenesRepresentativasDos,
+    .containerSobreMi__imagenesRepresentativasTres,
+    .containerSobreMi__imagenesRepresentativasCuatro,
+    .containerSobreMi__imagenesRepresentativasCinco {
+        height: 25rem;
+        background-image: radial-gradient(white, black);
+        border-radius: 2rem;
+        justify-self: center;
+        transition: all 2s;
+    
+    }
+    
+    .containerSobreMi__imagenesRepresentativasDos:hover,
+    .containerSobreMi__imagenesRepresentativasTres:hover,
+    .containerSobreMi__imagenesRepresentativasCuatro:hover,
+    .containerSobreMi__imagenesRepresentativasCinco:hover {
+        transform: scale(1.1);
+        border: 4px solid white;
+    }
+}
+
+
+
+/* ------------------------------------ */

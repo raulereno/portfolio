@@ -1,0 +1,208 @@
+/* Diseño HASTA 600px */
+@media only screen and (max-width:600px) {
+    footer p {
+        font-size: 1.4rem;
+    }
+    //---------INDEX-----//
+    .section{
+        margin: 4px 6px;
+
+        .section__carrusel {
+            width: 100%;
+            display: flex;
+            justify-self:flex-start;
+        }
+    }
+    
+    //-------------------//
+    /*------ SOBRE MI--------- */
+    .containerSobreMi {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .5fr 3fr 5fr .5fr 2.5fr 2.5fr 2.5fr 2.5fr;
+        grid-template-areas:
+            "titulo1 titulo1"
+            "imagen1 imagen1"
+            "texto1 texto1"
+            "titulo2 titulo2"
+            "imagen2 imagen2"
+            "imagen3 imagen3"
+            "imagen4 imagen4"
+            "imagen5 imagen5"
+        ;
+
+        .containerSobreMi__titulo {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            padding: 0rem;
+            height: 55%;
+            font-size: 4rem;
+            height: 5rem;
+        }
+    
+        .containerSobreMi__fotosMias {
+            width: 100%;
+            height: auto;
+        }
+    
+        .containerSobreMi__parrafoSobreMi {
+            width: 100%;
+        }
+    
+        .containerSobreMi__tituloHobbies {
+            justify-self: center;
+            height: 5rem;
+        }
+    }
+    /*-------FIN SOBRE MI-------*/
+    /* -----PORTFOLIO---------- */
+    .tituloH1Portfolio {
+        margin: 0px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 0rem 0rem 1.5rem 2rem;
+    }
+
+    .containerProyectoUno .containerProyectoUno__titulosH2,
+    .containerProyectoDos .containerProyectoDos__titulosH2,
+    .containerProyectoTres .containerProyectoTres__titulosH2 {
+        width: 100%;
+    }
+
+    .containerProyectoUno .containerProyectoUno__parrafo,
+    .containerProyectoDos .containerProyectoDos__parrafo,
+    .containerProyectoTres .containerProyectoTres__parrafo {
+        width: 100%;
+        margin:0;
+    }
+
+    .imagenesPortfolio{
+        width: 80%;
+        justify-self: flex-start;
+    }
+
+    /* ------FIN PORTFOLIO----- */
+    /*-------SERVICIOS---------*/
+    .servicios {
+        flex-direction: column;
+        align-content: center;
+        border: 0.5rem solid rgb(192, 85, 85);
+        padding-bottom: 2rem;
+        margin: 1rem 0rem 0rem 0rem;
+
+        .servicios__titulosH1 {
+            align-self: center;
+            margin: 0px;
+            width: 100%;
+            border-radius: 0;
+        }
+    
+        .servicios__servicioUno,
+        .servicios__servicioDos {
+            width: 100%;
+            border: none;
+        }
+        .servicios__servicioUno{
+            border-bottom: 1rem solid rgba(192, 85, 85, .5);
+        }
+    }
+
+    /*-------FIN SERVICIOS-----*/
+    //--------CONTACTO--------//
+    .formulario{
+        .formulario__llamada{
+            width: 80%;
+        }
+    }
+        
+
+
+
+    //--------FIN CONTACTO-----//
+}
+
+/* -------------------------------------------- */
+/*------ Diseño DE 600-1024px ------*/
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+   
+    footer p {
+        font-size: 1.5rem;
+    }
+    
+    //---------INDEX-----//
+    .section{
+        margin: 1rem;
+
+        .section__carrusel {
+            width: 80%;
+        }
+    }
+    
+    //-------------------//
+    /*----- SOBRE MI -----*/
+    .containerSobreMi {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 4fr 5fr 1fr 3.5fr 3.5fr;
+        grid-template-areas:
+            "titulo1 titulo1"
+            "imagen1 imagen1"
+            "texto1 texto1"
+            "titulo2 titulo2"
+            "imagen2 imagen3"
+            "imagen4 imagen5"
+        ;
+        
+        .containerSobreMi__titulo {
+            height: 4.5rem;
+            padding: 2px 0px 6px 3px;
+            align-self: center;
+        }
+    
+        .containerSobreMi__fotosMias {
+            justify-self: center;
+        }
+    
+        .containerSobreMi__parrafoSobreMi {
+            width: 75%;
+        }
+    
+        .containerSobreMi__tituloHobbies {
+            justify-self: center;
+        }
+    }
+
+    /* --------FIN SOBRE MI---------- */
+    /* ------------PORTFOLIO-----------*/
+    .containerProyectoUno .containerProyectoUno__parrafo,
+    .containerProyectoDos .containerProyectoDos__parrafo,
+    .containerProyectoTres .containerProyectoTres__parrafo {
+        width: 100%;
+        margin: 1.5rem;
+    }
+
+    .containerProyectoUno .titulosH2Uno,
+    .containerProyectoDos .titulosH2Dos {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*--------FIN PORTFOLIO---------- */
+    /*---------- SERVICIOS ----------*/
+    .titulosH2Servicios {
+        width: 90%;
+    }
+
+    .flexContainerServicios p {
+        width: 80%;
+    }
+
+    .flexContainerServicios img {
+        width: 60%;
+        height: auto;
+    }
+
+    /*--------- FIN SERVICIOS-------- */
+}

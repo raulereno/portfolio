@@ -1,0 +1,82 @@
+/*-------------PORTFOLIO---------------*/
+.tituloH1Portfolio {
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: 5rem;
+    padding-left: 3rem;
+    background-color: rgba(66, 66, 66, .5);
+    border-radius: 5px;
+}
+
+.containerProyectoUno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .containerProyectoUno__titulosH2 {
+        font-size: 35px;
+        color: white;
+        background-color: rgba(192, 85, 85, .7);
+        margin: 2rem 0rem;
+        padding-left: 1rem;
+        border-radius: 5px;
+        width: 80%;
+    }
+
+    .containerProyectoUno__parrafo {
+        width: 50%;
+        align-self: center;
+        margin-left: 5rem;
+    }
+}
+
+.containerProyectoDos {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+    .containerProyectoDos__titulosH2 {
+        font-size: 35px;
+        color: white;
+        background-color: rgba(192, 85, 85, .7);
+        margin-bottom: 15px;
+        padding-left: 1rem;
+        border-radius: 5px;
+        width: 80%
+    }
+    .containerProyectoDos__parrafo {
+        width: 50%;
+        align-self: center;
+    }
+}
+
+.containerProyectoTres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    .containerProyectoTres__titulosH2 {
+        font-size: 35px;
+        color: white;
+        background-color: rgba(192, 85, 85, .7);
+        margin: 2rem 0rem;
+        padding-left: 1rem;
+        border-radius: 5px;
+        width: 80%;
+    }
+
+    .containerProyectoTres__parrafo {
+        width: 50%;
+        align-self: center;
+        margin-left: 5rem;
+    }
+}
+.containerProyectoDos h2,
+.containerProyectoUno h2 {
+    width: 60%;
+}
+/*---------------FIN PORTFOLIO--------------------*/

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description"
+    content="Ponte en contacto conmigo. Cualquier pregunta es bienvenida desde precios de los servicios, comprobación de experiencia y hasta mi formación. Cualquier duda será respondida.">
+  <meta name="keywords"
+    content="contacto , Raúl Ereño , diseñador web, HTML , CSS, diseño de páginas web, diseño web, desarrollo web, web, diseño, desarrollo, desarrollador web, desarrollador,mensaje, preguntas, informacion personal">
+  <!-- FUENTE PRINCIPAL -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap" rel="stylesheet" />
+  <!-- FUENTE SECUNDARIA -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!-- HOJA DE ESTILOS -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <title>Contacto | Raúl Ereño</title>
+</head>
+
+<body>
+  <div class="container-fluid navBarMovible" id="arriba">
+    <div class="row containerHeader">
+      <nav class="col-6 navbar navbar-expand-lg navbar-light navBarMovible__barra">
+        <div class="container-fluid">
+          <button class="navbar-toggler navBarMovible__botonMenuHamburguesa" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navBarMovible__enLinea">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre_mi.html">Sobre Mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="col-6 navBarMovible__redesSociales">
+        <a href="https://www.instagram.com/raulereno/" target="_blank"><img src="../images/instagram.svg"
+            alt="Logo de Instagram" class="img-fluid" /></a>
+        <a href="https://www.linkedin.com/in/raulereno" target="_blank"> <img src="../images/linkedin.svg"
+            alt="Logo de LinkeIn" class="img-fluid" /></a>
+        <a href="https://api.whatsapp.com/send?phone=+00000000" target="_blank"><img src="../images/whatsapp.svg"
+            alt="Icono de whatsapp" clase="img-fluid"></a>
+      </div>
+    </div>
+  </div>
+  <header class="container-fluid header">
+    <div class="row">
+      <div class="col-12">
+        <a href="../index.html">
+          <img src="../images/logo.svg" alt="Logo Raul Ereño" class="header__logo img-fluid" data-aos="fade-down"
+            data-aos-duration="3000">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="formulario" data-aos="zoom-in-up" data-aos-duration="3000">
+    <h1 class="titulosH1 formulario__tituloH1">Contactame:</h1>
+    <form action="" class="formulario__form">
+      <!-- Informacion personal -->
+      <fieldset class="formulario__containerUno">
+        <legend>Información Personal</legend>
+        <div>
+          <label for="nombreApellido">Nombre: </label>
+          <input type="text" name="nombreApellido" placeholder="Nombre" />
+        </div>
+        <div>
+          <label for="email">Ingrese su email:</label>
+          <input type="email" name="email" placeholder="nombre@ejemplo.com" />
+        </div>
+        <div>
+          <label for="">Teléfono:</label>
+          <input type="text" name="telefono" placeholder="Telefono" />
+        </div>
+      </fieldset>
+      <!-- Idea o negocio requerido -->
+      <fieldset class="formulario__containerDos">
+        <label for="mensaje">Escriba su mensaje:</label>
+        <textarea name="mensaje" class="mensaje" cols="20" rows="10" maxlength="500"
+          placeholder="Resumen de su idea,Caracteres MAX :500">
+        </textarea>
+      </fieldset>
+      <!-- Checkbox sobre llamada -->
+      <div class="formulario__llamada">
+        <label for="llamarSiNo">¿Quiere recibir una llamada?</label>
+        <input type="checkbox" name="llamarSiNo" value="llamado" />
+      </div>
+      <!-- ENVIAR -->
+      <div class="formulario__botonEnviar">
+        <label for="enviar"></label>
+        <input type="submit" name="enviar" id="enviar" value="Enviar" />
+      </div>
+    </form>
+  </div>
+
+
+  <footer>
+    <p>Pagina creada por Raúl Ereño. 2021 Copyright</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

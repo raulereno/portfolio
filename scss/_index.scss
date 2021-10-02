@@ -1,0 +1,31 @@
+/* ---------INDEX----------- */
+.section {
+    margin: 1rem 0rem 1rem 4rem;
+    .section__fotoMia {
+        width: 25rem;
+        height: 25rem;
+        transition: all 1.5s;
+        border: 4px solid rgba(66, 8, 7, .7);
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .section__fotoMia:hover {
+        width: 26rem;
+        height: 26rem;
+        border: 4px solid white;
+    }
+    
+    .section__tituloResumenPortfolio {
+        padding-left: 4rem;
+        background-color: rgba(129, 129, 129, 0.4);
+    }
+    .section__carrusel {
+        width: 50%;
+    }
+    .section__segundoParrafo{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*---------------------------*/
